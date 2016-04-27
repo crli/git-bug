@@ -1,1 +1,1 @@
-git config --global url."https://".insteadOf "git://"
+shell→    git config --global url."https://".insteadOf "git://"
