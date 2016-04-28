@@ -1,0 +1,4 @@
+IE会将注释节点实现为元素，所以在IE中调用getElementsByTagName里面会包含注释节点，这个通常是不应该的
+getElementById的参数在IE8及较低的版本不区分大小写
+IE7及较低的版本中，表单元素中，如果表单A的name属性名用了另一个元素B的ID名并且A在B之前，那么getElementById会选中A
+IE8及较低的版本，浏览器不支持getElementsByClassName
